@@ -19,7 +19,7 @@ class MobileBankApiTestV2 {
                 .then()
                 .statusCode(200)
                 .header("Content-Type", "application/json; charset=UTF-8")
-                .header("Content-Length", String.valueOf(430))
+                .header("Content-Length", String.valueOf(433))
                 // специализированные проверки - лучше
                 .contentType(ContentType.JSON)
         ;
